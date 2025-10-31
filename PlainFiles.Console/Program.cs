@@ -50,6 +50,8 @@ string MyMenu()
     Console.WriteLine("1. Adicionar.");
     Console.WriteLine("2. Mostrar.");
     Console.WriteLine("3. Grabar.");
+    Console.WriteLine("4. Eliminar.");
+    Console.WriteLine("5. Ordenar.");
     Console.WriteLine("0. Salir.");
     Console.Write("Seleccione una opción: ");
     return Console.ReadLine() ?? string.Empty;
